@@ -1,0 +1,16 @@
+
+  {
+    "name": "portjohnmelo",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd PortJohnMelo.client && npm i",
+      "setup:server": "cd PortJohnMelo && npm i",
+      "start": "node PortJohnMelo/index.js"
+    },
+    "engines": {
+      "node": "^14.17.0"
+    }
+  }
+  
