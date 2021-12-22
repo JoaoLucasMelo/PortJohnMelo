@@ -1,15 +1,10 @@
 <template>
-  <header>
-    <Navbar />
-  </header>
-  <main>
-    <router-view />
-  </main>
-  <footer>
-    <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
+  <main class="container-fluid background">
+    <div class="row">
+      <router-view />
     </div>
-  </footer>
+  </main>
+  <footer></footer>
 </template>
 
 <script>
@@ -26,5 +21,11 @@ export default {
 </script>
 <style lang="scss">
 @import "./assets/scss/main.scss";
-
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+.font {
+  font-family: "Questrial", sans-serif;
+}
+.background {
+  background-color: #323647;
+}
 </style>

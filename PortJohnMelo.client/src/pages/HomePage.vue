@@ -1,36 +1,249 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <div class="home-card p-5 bg-white rounded elevation-3">
-      <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo" class="rounded-circle">
-      <h1 class="my-5 bg-dark text-white p-3 rounded text-center">
-        Vue 3 Starter
-      </h1>
+  <div class="home d-flex">
+    <div class="col-8 animate slide height">
+      <div class="animate slide delay-2">
+        <img class="jm" src="../assets/img/JM2.png" alt="" />
+      </div>
+      <div>
+        <img
+          class="johnmelo animate slide delay-1"
+          src="../assets/img/johnmelo.png"
+          alt=""
+        />
+        <div class="card line animate slide delay-2"></div>
+        <div class="marginicons animate slide delay-2">
+          <i
+            title="John's Linkedin"
+            class="mdi mdi-48px me-3 icon color mdi-linkedin"
+          ></i>
+          <i
+            title="John's GitHub"
+            class="mdi mdi-48px icon color mdi-github"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 animate drop delay-2">
+      <div class="row menu align-items-center">
+        <div class="col-10 d-flex justify-content-between">
+          <div class="rounded">
+            <p class="font icon color px-1 selectable1 menubtn">Home</p>
+          </div>
+          <div class="rounded">
+            <p class="font icon color px-1 selectable1 menubtn">Portfolio</p>
+          </div>
+          <div class="rounded">
+            <p class="font icon color px-1 selectable1 menubtn">Resume</p>
+          </div>
+          <div class="rounded">
+            <p class="font icon color px-1 selectable1 menubtn">Contact</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="font text-white f-20 mb-2">Welcome to my Portfolio!</div>
+        <div>
+          <p class="font text-white f-16 about">
+            Hi! I am a Full-Stack Software Developer from Brazil and currently
+            living in Boise - Idaho. Very passionate about coding and
+            challenging myself. When I'm not coding you can find me playing
+            Video Games and Board Games, or watching a good Movie or TV Show.
+          </p>
+        </div>
+        <div class="row mt-3">
+          <div class="col-10 d-flex flex-column align-items-center">
+            <div class="card line2 mt-5"></div>
+            <div class="mt-3 font text-white f-16">
+              Scroll down and find more about me!
+            </div>
+            <i
+              class="
+                mt-4
+                mdi
+                arrow-move
+                text-white
+                mdi-48px mdi-arrow-down-thick
+              "
+            ></i>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  setup() {
+    return {}
+  }
+
 }
 </script>
 
 <style scoped lang="scss">
-.home{
-  display: grid;
-  height: 80vh;
-  place-content: center;
-  text-align: center;
-  user-select: none;
-  .home-card{
-    width: 50vw;
-    > img{
-      height: 200px;
-      max-width: 200px;
-      width: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
+div {
+  overflow: hidden !important;
+}
+.height {
+  height: 100vh;
+  background-image: url("../assets/img/profilenobg.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.johnmelo {
+  margin-top: 17vh;
+  margin-left: 15vh;
+  height: 30vh;
+}
+.jm {
+  margin-top: 5vh;
+  margin-left: 4vh;
+  height: 8vh;
+}
+.animate {
+  animation-duration: 0.75s;
+  animation-delay: 0.5s;
+  animation-name: animate-fade;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-fill-mode: backwards;
+}
+.animate.slide {
+  animation-name: animate-slide;
+}
+
+@keyframes animate-slide {
+  0% {
+    opacity: 0;
+    transform: translate(0, 30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+.delay-1 {
+  animation-delay: 1s;
+}
+.delay-2 {
+  animation-delay: 1.5s;
+}
+.line {
+  margin-left: 17vh;
+  margin-top: 4vh;
+  height: 1vh;
+  width: 15vh;
+  border-radius: 0%;
+  background-color: #ffc159;
+}
+.line2 {
+  height: 1vh;
+  width: 44vh;
+  border-radius: 0%;
+  background-color: #ffc159;
+}
+.color {
+  color: #ffffff;
+}
+.color:hover {
+  color: #323647;
+}
+.icon {
+  position: relative;
+  color: white;
+  z-index: 1;
+}
+.icon::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5.5vh;
+  transform: scaleY(0);
+  transform-origin: center;
+  background: #ffc159;
+  z-index: -1;
+  transition: transform 0.1s;
+  border-radius: 10% !important;
+}
+.icon:hover::after {
+  transform: scaleY(1);
+}
+.marginicons {
+  margin-top: 4vh;
+  margin-left: 17vh;
+}
+.menu {
+  height: 20vh;
+}
+.menubtn {
+  color: white;
+  font-size: 3vh;
+}
+.about {
+  width: 90%;
+}
+.animate.drop {
+  animation-name: animate-drop;
+  animation-timing-function: cubic-bezier(0.77, 0.14, 0.91, 1.25);
+}
+
+@keyframes animate-drop {
+  0% {
+    opacity: 0;
+    transform: translate(0, -300px) scale(1, 1);
+  }
+  95% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1, 1);
+  }
+  96% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1, 1);
+  }
+  97% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1, 1);
+  }
+  98% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1, 1);
+  }
+  99% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1, 1);
+  }
+}
+
+.arrow-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+.arrow-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
   }
 }
 </style>
