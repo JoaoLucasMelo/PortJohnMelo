@@ -1,31 +1,33 @@
 <template>
-  <div class="home d-flex">
-    <div class="col-8 animate slide height">
+  <div class="home d-flex mobilerow">
+    <div class="col-md-8 animate slide height">
       <div class="animate slide delay-2">
         <img class="jm" src="../assets/img/JM2.png" alt="" />
       </div>
-      <div>
+      <div class="">
         <img
           class="johnmelo animate slide delay-1"
           src="../assets/img/johnmelo.png"
           alt=""
         />
-        <div class="card line animate slide delay-2"></div>
-        <div class="marginicons animate slide delay-2">
-          <i
-            title="John's Linkedin"
-            class="mdi mdi-48px me-3 icon color mdi-linkedin"
-          ></i>
-          <i
-            title="John's GitHub"
-            class="mdi mdi-48px icon color mdi-github"
-          ></i>
+        <div class="mobileset">
+          <div class="card line animate slide delay-2"></div>
+          <div class="marginicons animate slide delay-2">
+            <i
+              title="John's Linkedin"
+              class="mdi mdi-48px me-3 icon color mdi-linkedin"
+            ></i>
+            <i
+              title="John's GitHub"
+              class="mdi mdi-48px icon color mdi-github"
+            ></i>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-4 animate drop delay-2">
-      <div class="row menu align-items-center">
-        <div class="col-10 d-flex justify-content-between">
+    <div class="col-md-4 animate drop delay-2">
+      <div class="row menu align-items-center mobile">
+        <div class="col-md-10 d-flex justify-content-between">
           <div class="rounded">
             <p class="font icon color px-1 selectable1 menubtn">Home</p>
           </div>
@@ -40,7 +42,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mobilemarg tablet">
         <div class="font text-white f-20 mb-2">Welcome to my Portfolio!</div>
         <div>
           <p class="font text-white f-16 about">
@@ -51,8 +53,8 @@
           </p>
         </div>
         <div class="row mt-3">
-          <div class="col-10 d-flex flex-column align-items-center">
-            <div class="card line2 mt-5"></div>
+          <div class="col-md-10 d-flex flex-column align-items-center">
+            <div class="card line2 mt-5 mobilemarg"></div>
             <div class="mt-3 font text-white f-16">
               Scroll down and find more about me!
             </div>
@@ -70,7 +72,32 @@
       </div>
     </div>
   </div>
-  <div></div>
+  <div class="col-12">
+    <div
+      class="row"
+      data-aos="zoom-in-up"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
+      <About />
+    </div>
+    <div
+      class="row"
+      data-aos="zoom-in-up"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
+      <Portfolio />
+    </div>
+    <div
+      class="row"
+      data-aos="zoom-in-up"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
+      <Resume />
+    </div>
+  </div>
 </template>
 
 <script>
@@ -223,12 +250,12 @@ div {
 }
 
 .arrow-move {
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate;
+  -webkit-animation: mover 0.8s infinite alternate;
+  animation: mover 0.8s infinite alternate;
 }
 .arrow-move {
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate;
+  -webkit-animation: mover 0.8s infinite alternate;
+  animation: mover 0.8s infinite alternate;
 }
 @-webkit-keyframes mover {
   0% {
@@ -244,6 +271,77 @@ div {
   }
   100% {
     transform: translateY(-20px);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .mobilerow {
+    flex-direction: column;
+  }
+  .johnmelo {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 10vh;
+  }
+  .height {
+    height: 60vh;
+    background-image: url("../assets/img/profilenobg.png");
+    background-repeat: no-repeat;
+    background-position-x: -70px;
+    background-position-y: bottom;
+    background-size: 50vh;
+  }
+  .jm {
+    margin-top: 2vh;
+    margin-left: 2vh;
+    height: 6vh;
+  }
+  .home {
+    padding: 0;
+  }
+  .mobileset {
+    position: absolute;
+    right: 10px;
+    top: 25vh;
+  }
+  .marginicons {
+    margin-top: 0vh;
+    margin-left: 17vh;
+  }
+  .mobile {
+    display: none !important;
+  }
+  .mobilemarg {
+    margin-top: 2vh !important;
+    margin-left: 1.7vh;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
+  .johnmelo {
+    position: absolute;
+    left: 3vh;
+    top: 37vh;
+    height: 10vh;
+    margin: 0 !important;
+  }
+  .mobileset {
+    position: absolute !important;
+    top: 45vh;
+    left: 0vh;
+  }
+  .marginicons {
+    margin-top: 0vh;
+    margin-left: 4vh;
+  }
+  .mobile {
+    display: none !important;
+  }
+  .line {
+    margin-left: 4vh;
+    margin-top: 4vh;
+  }
+  .tablet {
+    margin-top: 10vh;
   }
 }
 </style>
