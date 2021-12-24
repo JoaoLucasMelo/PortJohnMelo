@@ -14,14 +14,18 @@
         <div class="mobileset">
           <div class="card line animate slide delay-2"></div>
           <div class="marginicons animate slide delay-2">
-            <i
+            <a
+              href="https://www.linkedin.com/in/johnmelo94/"
+              target="_blank"
               title="John's Linkedin"
               class="mdi mdi-48px me-3 icon color mdi-linkedin"
-            ></i>
-            <i
+            ></a>
+            <a
+              href="https://github.com/JoaoLucasMelo"
+              target="_blank"
               title="John's GitHub"
               class="mdi mdi-48px icon color mdi-github"
-            ></i>
+            ></a>
           </div>
         </div>
       </div>

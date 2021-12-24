@@ -29,16 +29,20 @@
           <div class="px-4 d-flex align-items-center">
             <p class="text-white font f-18 m-0">Visit me on:</p>
             <p class="text-white font f-16 m-0 ms-3">
-              <i
+              <a
+                href="https://www.linkedin.com/in/johnmelo94/"
+                target="_blank"
                 title="John's Linkedin"
                 class="mdi mdi-36px icon color mdi-linkedin"
-              ></i>
+              ></a>
             </p>
             <p class="text-white font f-16 m-0 ms-3">
-              <i
+              <a
+                href="https://github.com/JoaoLucasMelo"
+                target="_blank"
                 title="John's GitHub"
                 class="mdi mdi-36px icon color mdi-github"
-              ></i>
+              ></a>
             </p>
           </div>
         </div>
