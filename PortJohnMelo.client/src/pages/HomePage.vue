@@ -1,120 +1,121 @@
 <template>
-  <a id="top"></a>
-  <div class="home d-flex mobilerow">
-    <div class="col-md-8 animate slide height">
-      <div class="animate slide delay-2">
-        <img class="jm" src="../assets/img/JM2.png" alt="" />
-      </div>
-      <div class="">
-        <img
-          class="johnmelo animate slide delay-1"
-          src="../assets/img/johnmelo.png"
-          alt=""
-        />
-        <div class="mobileset">
-          <div class="card line animate slide delay-2"></div>
-          <div class="marginicons animate slide delay-2">
-            <a
-              href="https://www.linkedin.com/in/johnmelo94/"
-              target="_blank"
-              title="John's Linkedin"
-              class="mdi mdi-48px me-3 icon color mdi-linkedin"
-            ></a>
-            <a
-              href="https://github.com/JoaoLucasMelo"
-              target="_blank"
-              title="John's GitHub"
-              class="mdi mdi-48px icon color mdi-github"
-            ></a>
-          </div>
+  <div class="scrollbar">
+    <div class="home d-flex mobilerow">
+      <div class="col-md-8 animate slide height">
+        <div class="animate slide delay-2">
+          <img class="jm" src="../assets/img/JM2.png" alt="" />
         </div>
-      </div>
-    </div>
-    <div class="col-md-4 animate drop delay-2">
-      <div class="row menu align-items-center mobile">
-        <div class="col-md-10 d-flex justify-content-between">
-          <div class="rounded">
-            <a
-              href="#portfolio"
-              class="font icon color px-1 selectable1 menubtn"
-            >
-              About
-            </a>
-          </div>
-          <div class="rounded">
-            <p class="font icon color px-1 selectable1 menubtn">Portfolio</p>
-          </div>
-          <div class="rounded">
-            <p class="font icon color px-1 selectable1 menubtn">Resume</p>
-          </div>
-          <div class="rounded">
-            <p class="font icon color px-1 selectable1 menubtn">Contact</p>
-          </div>
-        </div>
-      </div>
-      <div class="row mobilemarg tablet">
-        <div class="font text-white f-20 mb-2">Welcome to my Portfolio!</div>
-        <div>
-          <p class="font text-white f-16 about">
-            Hi! I am a Full-Stack Software Developer from Brazil and currently
-            living in Boise - Idaho. Very passionate about coding and
-            challenging myself. When I'm not coding you can find me playing
-            Video Games and Board Games, or watching a good Movie or TV Show.
-          </p>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-10 d-flex flex-column align-items-center">
-            <div class="card line2 mt-5 mobilemarg"></div>
-            <div class="mt-3 font text-white f-16">
-              Scroll down and find more about me!
+        <div class="">
+          <img
+            class="johnmelo animate slide delay-1"
+            src="../assets/img/johnmelo.png"
+            alt=""
+          />
+          <div class="mobileset">
+            <div class="card line animate slide delay-2"></div>
+            <div class="marginicons animate slide delay-2">
+              <a
+                href="https://www.linkedin.com/in/johnmelo94/"
+                target="_blank"
+                title="John's Linkedin"
+                class="mdi mdi-48px me-3 icon color mdi-linkedin"
+              ></a>
+              <a
+                href="https://github.com/JoaoLucasMelo"
+                target="_blank"
+                title="John's GitHub"
+                class="mdi mdi-48px icon color mdi-github"
+              ></a>
             </div>
-            <i
-              class="
-                mt-4
-                mdi
-                arrow-move
-                text-white
-                mdi-48px mdi-arrow-down-thick
-              "
-            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 animate drop delay-2">
+        <div class="row menu align-items-center mobile">
+          <div class="col-md-10 d-flex justify-content-between">
+            <div class="rounded">
+              <a
+                href="#portfolio"
+                class="font icon color px-1 selectable1 menubtn"
+              >
+                About
+              </a>
+            </div>
+            <div class="rounded">
+              <p class="font icon color px-1 selectable1 menubtn">Portfolio</p>
+            </div>
+            <div class="rounded">
+              <p class="font icon color px-1 selectable1 menubtn">Resume</p>
+            </div>
+            <div class="rounded">
+              <p class="font icon color px-1 selectable1 menubtn">Contact</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mobilemarg tablet">
+          <div class="font text-white f-20 mb-2">Welcome to my Portfolio!</div>
+          <div>
+            <p class="font text-white f-16 about">
+              Hi! I am a Full-Stack Software Developer from Brazil and currently
+              living in Boise - Idaho. Very passionate about coding and
+              challenging myself. When I'm not coding you can find me playing
+              Video Games and Board Games, or watching a good Movie or TV Show.
+            </p>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-10 d-flex flex-column align-items-center">
+              <div class="card line2 mt-5 mobilemarg"></div>
+              <div class="mt-3 font text-white f-16">
+                Scroll down and find more about me!
+              </div>
+              <i
+                class="
+                  mt-4
+                  mdi
+                  arrow-move
+                  text-white
+                  mdi-48px mdi-arrow-down-thick
+                "
+              ></i>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="col-12">
-    <div
-      class="row"
-      data-aos="zoom-in-up"
-      data-aos-easing="linear"
-      data-aos-duration="1000"
-    >
-      <About />
-    </div>
-    <div
-      id="portfolio"
-      class="row"
-      data-aos="zoom-in-up"
-      data-aos-easing="linear"
-      data-aos-duration="1000"
-    >
-      <Portfolio />
-    </div>
-    <div
-      class="row"
-      data-aos="zoom-in-up"
-      data-aos-easing="linear"
-      data-aos-duration="1000"
-    >
-      <Resume />
-    </div>
-    <div
-      class="row"
-      data-aos="zoom-in-up"
-      data-aos-easing="linear"
-      data-aos-duration="1000"
-    >
-      <Contact />
+    <div class="col-12">
+      <div
+        class="row"
+        data-aos="zoom-in-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <About />
+      </div>
+      <div
+        id="portfolio"
+        class="row"
+        data-aos="zoom-in-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <Portfolio />
+      </div>
+      <div
+        class="row"
+        data-aos="zoom-in-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <Resume />
+      </div>
+      <div
+        class="row"
+        data-aos="zoom-in-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
+        <Contact />
+      </div>
     </div>
   </div>
 </template>
@@ -290,6 +291,22 @@ div {
   100% {
     transform: translateY(-20px);
   }
+}
+.scrollbar {
+  overflow-y: scroll;
+  height: auto;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background: #838383bd;
+  width: 8px;
+  border-radius: 8px;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #418848;
+  border-radius: 8px;
 }
 @media only screen and (max-width: 500px) {
   .mobilerow {
