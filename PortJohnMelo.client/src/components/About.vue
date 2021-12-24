@@ -162,7 +162,7 @@ export default {
 .experienced {
   margin-top: 4vh;
   width: 70%;
-  height: 45vh;
+  padding-bottom: 2vh !important;
   background-color: #323647;
 }
 .grow {
@@ -208,7 +208,6 @@ export default {
   }
   .experienced {
     width: 90%;
-    height: 30vh;
   }
   .aboutme {
     margin-top: 4vh;
@@ -229,7 +228,7 @@ export default {
   }
   .experienced {
     width: 90%;
-    height: 50vh;
+    height: 48vh;
   }
   .aboutme {
     margin-top: 4vh;

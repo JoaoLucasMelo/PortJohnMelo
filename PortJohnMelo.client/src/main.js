@@ -7,6 +7,8 @@ import { registerGlobalComponents } from './registerGlobalComponents'
 import { router } from './router'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import{ init } from 'emailjs-com';
+init("user_lBxCIiHNixbO5O2u1Dt7g");
 
 const root = createApp(App)
 registerGlobalComponents(root)

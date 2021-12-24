@@ -1,4 +1,5 @@
 <template>
+  <a id="top"></a>
   <div class="home d-flex mobilerow">
     <div class="col-md-8 animate slide height">
       <div class="animate slide delay-2">
@@ -29,7 +30,12 @@
       <div class="row menu align-items-center mobile">
         <div class="col-md-10 d-flex justify-content-between">
           <div class="rounded">
-            <p class="font icon color px-1 selectable1 menubtn">Home</p>
+            <a
+              href="#portfolio"
+              class="font icon color px-1 selectable1 menubtn"
+            >
+              About
+            </a>
           </div>
           <div class="rounded">
             <p class="font icon color px-1 selectable1 menubtn">Portfolio</p>
@@ -82,6 +88,7 @@
       <About />
     </div>
     <div
+      id="portfolio"
       class="row"
       data-aos="zoom-in-up"
       data-aos-easing="linear"
@@ -96,6 +103,14 @@
       data-aos-duration="1000"
     >
       <Resume />
+    </div>
+    <div
+      class="row"
+      data-aos="zoom-in-up"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
+      <Contact />
     </div>
   </div>
 </template>
@@ -217,7 +232,6 @@ div {
   animation-name: animate-drop;
   animation-timing-function: cubic-bezier(0.77, 0.14, 0.91, 1.25);
 }
-
 @keyframes animate-drop {
   0% {
     opacity: 0;
