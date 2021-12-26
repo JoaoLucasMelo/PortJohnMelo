@@ -118,6 +118,8 @@
       </div>
     </div>
   </div>
+  <AppModalOne />
+  <AppModalTwo />
 </template>
 
 <script>

@@ -7,7 +7,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-sm-6 col-md-3 p-4">
+        <div
+          data-bs-toggle="modal"
+          data-bs-target="#GoodOlDays"
+          class="col-12 col-sm-6 col-md-3 p-4 selectable1"
+        >
           <div class="card project grow">
             <div class="d-flex justify-content-center">
               <img
@@ -25,7 +29,11 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3 p-4">
+        <div
+          data-bs-toggle="modal"
+          data-bs-target="#SpiceItUp"
+          class="col-12 col-sm-6 col-md-3 p-4 selectable1"
+        >
           <div class="card project grow">
             <div class="d-flex justify-content-center">
               <img
