@@ -116,14 +116,16 @@
 
 <script>
 import emailjs from 'emailjs-com';
+import Pop from "../utils/Pop";
 export default {
   methods: {
     sendEmail() {
       emailjs.sendForm('service_hwkyj2q', 'template_k3uye1u', this.$refs.form, 'user_lBxCIiHNixbO5O2u1Dt7g')
         .then((result) => {
-          console.log('Email sent!');
+          console.log('Email sent!', result);
+          Pop.toast('Message sent! Thank you!', 'success')
         }, (error) => {
-          console.log('Email failed!');
+          console.log('Email failed!', error);
         });
     }
   }

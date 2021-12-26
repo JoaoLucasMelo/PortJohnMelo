@@ -292,22 +292,7 @@ div {
     transform: translateY(-20px);
   }
 }
-.scrollbar {
-  overflow-y: scroll;
-  height: auto;
-}
-.scrollbar::-webkit-scrollbar {
-  width: 8px;
-}
-.scrollbar::-webkit-scrollbar-track {
-  background: #838383bd;
-  width: 8px;
-  border-radius: 8px;
-}
-.scrollbar::-webkit-scrollbar-thumb {
-  background-color: #418848;
-  border-radius: 8px;
-}
+
 @media only screen and (max-width: 500px) {
   .mobilerow {
     flex-direction: column;
