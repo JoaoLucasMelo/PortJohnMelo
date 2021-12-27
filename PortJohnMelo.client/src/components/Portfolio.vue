@@ -50,6 +50,28 @@
             </div>
           </div>
         </div>
+        <div
+          data-bs-toggle="modal"
+          data-bs-target="#TowerEvents"
+          class="col-12 col-sm-6 col-md-3 p-4 selectable1"
+        >
+          <div class="card project grow">
+            <div class="d-flex justify-content-center">
+              <img
+                class="img-fluid mt-2 rounded projectpic"
+                src="../assets/img/towerevents.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="ms-3 mb-0 mt-2 text-white font f-20">Tower Events</p>
+              <p class="ms-3 text-white font f-14 me-2">
+                Events app that people can create events and others can attend
+                to it.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

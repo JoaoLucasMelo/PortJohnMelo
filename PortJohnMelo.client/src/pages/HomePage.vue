@@ -36,19 +36,25 @@
             <div class="rounded">
               <a
                 href="#portfolio"
-                class="font icon color px-1 selectable1 menubtn"
+                class="font icon color px-1 selectable1 menubtn pb-1"
               >
                 About
               </a>
             </div>
             <div class="rounded">
-              <p class="font icon color px-1 selectable1 menubtn">Portfolio</p>
+              <a class="font icon color px-1 selectable1 menubtn pb-1"
+                >Portfolio</a
+              >
             </div>
             <div class="rounded">
-              <p class="font icon color px-1 selectable1 menubtn">Resume</p>
+              <a class="font icon color px-1 selectable1 menubtn pb-1"
+                >Resume</a
+              >
             </div>
             <div class="rounded">
-              <p class="font icon color px-1 selectable1 menubtn">Contact</p>
+              <a class="font icon color px-1 selectable1 menubtn pb-1"
+                >Contact</a
+              >
             </div>
           </div>
         </div>
@@ -120,6 +126,7 @@
   </div>
   <AppModalOne />
   <AppModalTwo />
+  <AppModalThree />
 </template>
 
 <script>

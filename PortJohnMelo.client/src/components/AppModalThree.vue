@@ -2,9 +2,9 @@
   <div class="App1">
     <div
       class="modal fade"
-      id="SpiceItUp"
+      id="TowerEvents"
       tabindex="-1"
-      aria-labelledby="SpiceItUpLabel"
+      aria-labelledby="TowerEventsLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog">
@@ -12,7 +12,7 @@
           <div class="modal-body font">
             <div class="d-flex justify-content-between">
               <div>
-                <p class="text-white f-24">Spice it up! App</p>
+                <p class="text-white f-24">Tower Events App</p>
               </div>
               <div>
                 <button
@@ -26,17 +26,18 @@
             <div>
               <img
                 class="project img-fluid rounded"
-                src="../assets/img/Screenshot 2021-12-22 214136.jpg"
+                src="../assets/img/Screenshot 2021-12-27 142053.jpg"
                 alt=""
               />
             </div>
             <div class="mt-3">
               <p class="text-white f-16">
-                App developed by me to help people store their recipes and also
-                share and favorite other recipes.
+                App developed by me to help people create and share their
+                events, and allowing other people to attend to an event if not
+                yet at capacity or canceled.
               </p>
               <p class="text-white f-16">
-                Tecnologies used: Vue 3, CSS, C# and MySQL.
+                Tecnologies used: Vue 3, JavaScript and CSS.
               </p>
             </div>
           </div>
