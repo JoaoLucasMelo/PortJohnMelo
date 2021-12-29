@@ -8,7 +8,7 @@
         <i class="font text-warning"> ― Walt Disney</i>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-4">
       <div class="col-md-4 d-flex justify-content-center">
         <div class="card experienced p-2 d-flex">
           <p class="font text-white f-16 m-2 mb-1">EXPERIENCED IN:</p>
@@ -165,7 +165,7 @@ export default {
 
 <style lang="scss" scoped>
 .aboutcomponent {
-  height: 70vh;
+  // height: 70vh;
   background-color: #272a38;
 }
 .experienced {
@@ -198,7 +198,7 @@ export default {
   margin-top: 4vh;
   background-color: #323647;
   width: 90%;
-  height: 45vh;
+  // height: 45vh;
 }
 .textabout {
   letter-spacing: 0.6px;
@@ -213,7 +213,7 @@ export default {
     height: 30px;
   }
   .aboutcomponent {
-    height: 170vh;
+    // height: 170vh;
   }
   .experienced {
     width: 90%;
@@ -233,17 +233,17 @@ export default {
 }
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
   .aboutcomponent {
-    height: 100vh;
+    height: 120vh;
   }
   .experienced {
     width: 90%;
-    height: 48vh;
+    // height: 48vh;
   }
   .aboutme {
     margin-top: 4vh;
     background-color: #323647;
     width: 90%;
-    height: 75vh;
+    // height: 63vh;
   }
 }
 </style>
