@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="row mobilemarg tablet">
-          <div class="font text-white f-20 mb-2">Welcome to my Portfolio!</div>
+          <div class="font welcome f-24 mb-2">Welcome to my Portfolio!</div>
           <div>
             <p class="font text-white f-16 about">
               Hi! I am a Full-Stack Software Developer from Brazil and currently
@@ -301,7 +301,9 @@ div {
     transform: translateY(-20px);
   }
 }
-
+.welcome {
+  color: #ffc159;
+}
 @media only screen and (max-width: 500px) {
   .mobilerow {
     flex-direction: column;

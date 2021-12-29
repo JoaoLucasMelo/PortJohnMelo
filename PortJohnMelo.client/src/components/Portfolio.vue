@@ -1,5 +1,5 @@
 <template>
-  <div class="portfolio">
+  <div class="portfolio mb-3">
     <div class="col-12">
       <div class="row justify-content-center">
         <div class="col-md-11">
@@ -89,7 +89,6 @@ export default {
 
 <style lang="scss" scoped>
 .portfolio {
-  height: 70vh;
   width: 100%;
 }
 .portfoliotitle {
@@ -115,13 +114,11 @@ export default {
 }
 @media only screen and (max-width: 500px) {
   .portfolio {
-    height: 115vh;
     width: 100%;
   }
 }
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
   .portfolio {
-    height: 70vh;
     width: 100%;
   }
 }
