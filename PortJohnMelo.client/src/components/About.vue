@@ -125,17 +125,26 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 d-flex align-items-center">
+          <div
+            class="
+              col-md-6
+              d-flex
+              align-items-center
+              justify-content-center
+              flex-column
+            "
+          >
+            <p class="font textabout text-white pt-md-3 px-4">
+              Ever since I started learning about code I fell in love with it,
+              and it became a habit to code everyday, I love how it makes me
+              think a lot to solve problems and challenges and there's always
+              something new to learn. It is definately an exciting carrer field.
+            </p>
             <p class="font textabout text-white p-4 pt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              similique eveniet exercitationem sequi accusamus deleniti quia
-              maiores, perferendis officia fugiat perspiciatis fuga veritatis
-              earum dolorem? Explicabo consequatur distinctio molestias
-              excepturi? Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Natus similique eveniet exercitationem sequi accusamus
-              deleniti quia maiores, perferendis officia fugiat perspiciatis
-              fuga veritatis earum dolorem? Explicabo consequatur distinctio
-              molestias excepturi?
+              I've always been a computer person as I grew up with computers in
+              my house. Learned early how to fix computers and also started
+              playing games on it. What probably also lead me to this carrer
+              field.
             </p>
           </div>
         </div>
