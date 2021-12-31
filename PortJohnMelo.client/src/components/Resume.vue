@@ -35,22 +35,6 @@
             </div>
           </div>
           <div class="col-md-8 card resumecard p-3">
-            <p class="font m-0 f-20 text-white">Asia Nine Restaurant</p>
-            <i class="font f-18 texts"> 2021 - 2022</i>
-            <i class="font f-14 m-0 texts"> Head Food Runner </i>
-            <div class="texts f-16 mt-3">
-              <p class="font m-0">
-                ● Handling orders and delivering to respective customers.
-              </p>
-              <p class="font m-0">● Providing customer service.</p>
-              <p class="font m-0">
-                ● Training new food runners for the restaurant chain.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 d-flex align-items-center flex-column">
-          <div class="col-md-8 card resumecard p-3">
             <p class="font m-0 f-20 text-white">Delicate Touch Moving</p>
             <i class="font f-18 texts"> 2018 - 2022</i>
             <i class="font f-14 m-0 texts"> Team Lead </i>
@@ -65,6 +49,23 @@
               </p>
             </div>
           </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center flex-column">
+          <div class="col-md-8 card resumecard p-3">
+            <p class="font m-0 f-20 text-white">Asia Nine Restaurant</p>
+            <i class="font f-18 texts"> 2016 - 2017</i>
+            <i class="font f-14 m-0 texts"> Head Food Runner </i>
+            <div class="texts f-16 mt-3">
+              <p class="font m-0">
+                ● Handling orders and delivering to respective customers.
+              </p>
+              <p class="font m-0">● Providing customer service.</p>
+              <p class="font m-0">
+                ● Training new food runners for the restaurant chain.
+              </p>
+            </div>
+          </div>
+
           <div class="col-md-8 card resumecard p-3">
             <p class="font m-0 f-20 text-white">Max Gym - Sao Paulo, Brazil</p>
             <i class="font f-18 texts"> 2015 - 2016</i>
