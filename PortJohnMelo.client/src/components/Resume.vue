@@ -36,7 +36,7 @@
           </div>
           <div class="col-md-8 card resumecard p-3">
             <p class="font m-0 f-20 text-white">Delicate Touch Moving</p>
-            <i class="font f-18 texts"> 2018 - 2022</i>
+            <i class="font f-18 texts"> 2018 - 2021</i>
             <i class="font f-14 m-0 texts"> Team Lead </i>
             <div class="texts f-16 mt-3">
               <p class="font m-0">
