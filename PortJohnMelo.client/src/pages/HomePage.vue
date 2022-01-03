@@ -35,24 +35,30 @@
           <div class="col-md-10 d-flex justify-content-between">
             <div class="rounded">
               <a
-                href="#portfolio"
                 class="font icon color px-1 selectable1 menubtn pb-1"
+                @click="scrollTo('about')"
               >
                 About
               </a>
             </div>
             <div class="rounded">
-              <a class="font icon color px-1 selectable1 menubtn pb-1"
+              <a
+                @click="scrollTo('portfolio')"
+                class="font icon color px-1 selectable1 menubtn pb-1"
                 >Portfolio</a
               >
             </div>
             <div class="rounded">
-              <a class="font icon color px-1 selectable1 menubtn pb-1"
+              <a
+                @click="scrollTo('resume')"
+                class="font icon color px-1 selectable1 menubtn pb-1"
                 >Resume</a
               >
             </div>
             <div class="rounded">
-              <a class="font icon color px-1 selectable1 menubtn pb-1"
+              <a
+                @click="scrollTo('contact')"
+                class="font icon color px-1 selectable1 menubtn pb-1"
                 >Contact</a
               >
             </div>
@@ -90,10 +96,11 @@
     </div>
     <div class="col-12">
       <div
+        id="about"
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="800"
       >
         <About />
       </div>
@@ -102,23 +109,25 @@
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="800"
       >
         <Portfolio />
       </div>
       <div
+        id="resume"
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="800"
       >
         <Resume />
       </div>
       <div
+        id="contact"
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="800"
       >
         <Contact />
       </div>
@@ -133,7 +142,13 @@
 export default {
   name: 'Home',
   setup() {
-    return {}
+    return {
+      scrollTo(elmId) {
+        let elm = document.getElementById(elmId)
+        let position = elm.offsetTop
+        window.scrollTo(0, position)
+      }
+    }
   }
 
 }
@@ -181,10 +196,10 @@ div {
   }
 }
 .delay-1 {
-  animation-delay: 1s;
+  animation-delay: 0.6s;
 }
 .delay-2 {
-  animation-delay: 1.5s;
+  animation-delay: 0.9s;
 }
 .line {
   margin-left: 17vh;
