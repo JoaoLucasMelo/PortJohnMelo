@@ -7,7 +7,7 @@
       aria-labelledby="TowerEventsLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-body font">
             <div class="d-flex justify-content-between">
@@ -35,6 +35,11 @@
                 App developed by me to help people create and share their
                 events, and allowing other people to attend to an event if not
                 yet at capacity or canceled.
+              </p>
+              <p class="text-white f-16">
+                The biggest road block I overcame on this app was how many
+                interactive buttons that changes the page automaticali as you
+                click.
               </p>
               <p class="text-white f-16">
                 Tecnologies used: Vue 3, JavaScript and CSS.

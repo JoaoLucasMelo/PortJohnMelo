@@ -7,7 +7,7 @@
       aria-labelledby="SpiceItUpLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-body font">
             <div class="d-flex justify-content-between">
@@ -34,6 +34,11 @@
               <p class="text-white f-16">
                 App developed by me to help people store their recipes and also
                 share and favorite other recipes.
+              </p>
+              <p class="text-white f-16">
+                This was one of my first projects using C# and MySQL so it took
+                me a little bit of time to figure out some of the features
+                added.
               </p>
               <p class="text-white f-16">
                 Tecnologies used: Vue 3, CSS, C# and MySQL.

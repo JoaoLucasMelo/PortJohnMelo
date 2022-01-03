@@ -7,7 +7,7 @@
       aria-labelledby="GoodOlDaysLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-body font">
             <div class="d-flex justify-content-between">
@@ -35,6 +35,12 @@
                 App developed by me and 4 other developers with the idea of
                 helping people to create memories and share with family and
                 friends.
+              </p>
+              <p class="text-white f-16">
+                As a team we've had some some difficulties on making decisions
+                regard the desing or the logistics but we overcome those
+                difficulties talking it out and also asking outsiders their
+                opinion.
               </p>
               <p class="text-white f-16">
                 Tecnologies used: Vue 3, CSS, Node.js, Firebase and MongoDB.
