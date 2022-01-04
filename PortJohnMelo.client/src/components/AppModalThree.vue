@@ -38,7 +38,7 @@
               </p>
               <p class="text-white f-16">
                 The biggest road block I overcame on this app was how many
-                interactive buttons that changes the page automaticali as you
+                interactive buttons that changes the page automatically as you
                 click.
               </p>
               <p class="text-white f-16">
