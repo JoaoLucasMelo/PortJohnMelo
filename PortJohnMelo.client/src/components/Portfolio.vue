@@ -125,7 +125,8 @@ export default {
   box-shadow: 1px 1px 3px 3px #ffc159;
 }
 .projectpic {
-  width: 95%;
+  width: 100%;
+  border-radius: 12px !important;
 }
 .grow {
   transition: all 0.2s ease-in-out;
