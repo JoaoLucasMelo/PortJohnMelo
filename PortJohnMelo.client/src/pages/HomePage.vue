@@ -136,6 +136,7 @@
   <AppModalOne />
   <AppModalTwo />
   <AppModalThree />
+  <AppModalFour />
 </template>
 
 <script>
