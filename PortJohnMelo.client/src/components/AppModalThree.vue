@@ -44,6 +44,13 @@
               <p class="text-white f-16">
                 Tecnologies used: Vue 3, JavaScript and CSS.
               </p>
+              <a
+                target="_blank"
+                href="https://tower-john.herokuapp.com/"
+                class="check f-16"
+              >
+                Check it out!
+              </a>
             </div>
           </div>
         </div>
@@ -72,5 +79,8 @@ export default {
   border-style: solid;
   border-color: #ffc159;
   border-radius: 10%;
+}
+.check {
+  color: #ffc159;
 }
 </style>
