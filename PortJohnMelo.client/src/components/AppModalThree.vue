@@ -26,7 +26,7 @@
             <div>
               <img
                 class="project img-fluid rounded"
-                src="../assets/img/Screenshot 2021-12-27 142053.jpg"
+                src="../assets/img/tower.jpg"
                 alt=""
               />
             </div>
