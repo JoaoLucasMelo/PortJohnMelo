@@ -43,6 +43,7 @@
               <p class="text-white f-16">
                 Tecnologies used: Vue 3, CSS, C# and MySQL.
               </p>
+              <p class="check f-16">Coming Soon!</p>
             </div>
           </div>
         </div>
@@ -71,5 +72,8 @@ export default {
   border-style: solid;
   border-color: #ffc159;
   border-radius: 10%;
+}
+.check {
+  color: #ffc159;
 }
 </style>

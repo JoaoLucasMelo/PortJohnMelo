@@ -46,13 +46,7 @@
               <p class="text-white f-16">
                 Tecnologies used: Vue 3, CSS, C#, DotNET and MySQL.
               </p>
-              <a
-                target="_blank"
-                href="https://good-ol-days.herokuapp.com/"
-                class="check f-16"
-              >
-                Check it out!
-              </a>
+              <p class="check f-16">Coming Soon!</p>
             </div>
           </div>
         </div>
