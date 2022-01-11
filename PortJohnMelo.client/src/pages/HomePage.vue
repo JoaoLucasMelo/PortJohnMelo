@@ -77,7 +77,7 @@
           <div class="row mt-3">
             <div class="col-md-10 d-flex flex-column align-items-center">
               <div class="card line2 mt-5 mobilemarg"></div>
-              <div class="mt-3 font text-white f-16">
+              <div class="mt-3 font text-white k f-16">
                 Scroll down and find more about me!
               </div>
               <i
