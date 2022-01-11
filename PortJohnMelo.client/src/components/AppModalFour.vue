@@ -44,7 +44,7 @@
                 the data used in this app.
               </p>
               <p class="text-white f-16">
-                Tecnologies used: Vue 3, CSS, C#, DotNET and MySQL.
+                Tecnologies used: Vue 3, CSS, C#, DotNET and MySQL
               </p>
               <p class="check f-16">Coming Soon!</p>
             </div>

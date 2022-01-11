@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [vue()],
   build: {
-    outDir: '../PortJohnMelo/PortJohnMelo.client',
+    outDir: '../PortJohnMelo/client',
     sourcemap: false
   },
   server: {
