@@ -100,7 +100,7 @@
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="800"
+        data-aos-duration="700"
       >
         <About />
       </div>
@@ -109,7 +109,7 @@
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="800"
+        data-aos-duration="700"
       >
         <Portfolio />
       </div>
@@ -118,7 +118,7 @@
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="800"
+        data-aos-duration="700"
       >
         <Resume />
       </div>
@@ -127,7 +127,7 @@
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="800"
+        data-aos-duration="700"
       >
         <Contact />
       </div>
