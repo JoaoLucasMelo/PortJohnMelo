@@ -118,7 +118,7 @@
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="900"
+        data-aos-duration="1200"
       >
         <Resume />
       </div>
@@ -127,7 +127,7 @@
         class="row"
         data-aos="zoom-in-up"
         data-aos-easing="linear"
-        data-aos-duration="900"
+        data-aos-duration="1200"
       >
         <Contact />
       </div>
