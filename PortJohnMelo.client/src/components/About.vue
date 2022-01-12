@@ -143,7 +143,7 @@
             <p class="font textabout text-white p-4 pt-2">
               I've always been a computer person as I grew up with computers in
               my house. Learned early how to fix computers and also started
-              playing games on it. What probably also lead me to this carrer
+              playing games on it. What probably also lead me to this career
               field.
             </p>
           </div>
