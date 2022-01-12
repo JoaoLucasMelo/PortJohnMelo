@@ -138,7 +138,7 @@
               Ever since I started learning about code I fell in love with it,
               and it became a habit to code everyday, I love how it makes me
               think a lot to solve problems and challenges and there's always
-              something new to learn. It is definately an exciting carrer field.
+              something new to learn. It is definitely an exciting career field.
             </p>
             <p class="font textabout text-white p-4 pt-2">
               I've always been a computer person as I grew up with computers in
