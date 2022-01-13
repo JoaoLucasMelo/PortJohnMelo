@@ -96,7 +96,7 @@
         </div>
         <div
           data-bs-toggle="modal"
-          data-bs-target="#VillainismEvents"
+          data-bs-target="#Villainism"
           class="col-12 col-sm-6 col-md-4 p-4 selectable1"
         >
           <div class="card project grow">
