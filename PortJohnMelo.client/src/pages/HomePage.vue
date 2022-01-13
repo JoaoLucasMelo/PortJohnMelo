@@ -137,6 +137,7 @@
   <AppModalTwo />
   <AppModalThree />
   <AppModalFour />
+  <AppModalFive />
 </template>
 
 <script>
