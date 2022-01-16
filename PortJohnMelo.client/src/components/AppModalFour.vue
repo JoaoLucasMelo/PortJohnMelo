@@ -46,7 +46,13 @@
               <p class="text-white f-16">
                 Tecnologies used: Vue 3, CSS, C#, DotNET and MySQL
               </p>
-              <p class="check f-16">Coming Soon!</p>
+              <a
+                target="_blank"
+                href="https://keepr.johnmelodev.com/"
+                class="check f-16"
+              >
+                Check it out!
+              </a>
             </div>
           </div>
         </div>

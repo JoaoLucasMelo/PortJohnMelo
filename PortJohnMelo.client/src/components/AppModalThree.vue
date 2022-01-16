@@ -46,7 +46,7 @@
               </p>
               <a
                 target="_blank"
-                href="https://tower-john.herokuapp.com/"
+                href="https://tower.johnmelodev.com/"
                 class="check f-16"
               >
                 Check it out!
